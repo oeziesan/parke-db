@@ -1,0 +1,22 @@
+Table identity {
+  id integer [primary key]
+  face blob
+  nama varchar
+  nim varchar
+}
+
+Table vehicle {
+  id integer [primary key]
+  identity_id integer [ref: > identity.id]
+  tipe_kendaraan varchar
+  jenis_kendaraan varchar
+  warna_kendaraan varchar
+  plat_nomor varchar
+}
+
+Table parking_log {
+  id integer [primary key]
+  vehicle_id integer [ref: > vehicle.id]
+  jam_masuk datetime
+  jam_keluar datetime
+}
