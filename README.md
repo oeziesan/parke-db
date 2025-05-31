@@ -6,4 +6,4 @@ Dan buat unduh libtensorflow_jni.so nya disini https://www.tensorflow.org/instal
 
 Nanti import .jar nya sebagai library, terus library tersebut set native library location nya ke arah /parke-db/native/xxx.so 
 
-database sesuaiin sama dbml yang ada di repo ini
+database sesuaiin sama dbml yang ada di repo ini (pastiin PK sama FK nya bener)
