@@ -4,15 +4,15 @@ import ui.EntryGate;
 
 public class dbhandler {
     //ConnectToDB
-    private static final String url = "jdbc:mysql://localhost:3306/parkingsys";
-    private static final String user = "root";
-    private static final String password = "255.255.255.0Fa";
+    private static final String url = "jdbc:mysql://localhost:3306/dbname";
+    private static final String user = "yourusername";
+    private static final String password = "your password";
 
     //InsertIdentity
     public int insertIdentity(String nama, String nim, byte[] embed) {
         int generatedId = -1;
         String query = "INSERT INTO identity (nama, nim, face) VALUES (?, ?, ?)";
-        try (Connection conn = DriverManager.getConnection(url, user, password);
+        try (Connection conn = DriverManager.getConnection(url, user, passw);
              PreparedStatement stmt = conn.prepareStatement(query, Statement.RETURN_GENERATED_KEYS)) {
 
             stmt.setString(1, nama);
@@ -245,7 +245,7 @@ public class dbhandler {
     public int findIdentityIdByPlat(String plat, dbhandler db) {
         int identityId = -1;
         String query = "SELECT identity_id FROM vehicle WHERE plat_nomor = ?";
-        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/parkingsys", "root", "255.255.255.0Fa");
+        try (Connection conn = DriverManager.getConnection(url, user, password);
              PreparedStatement stmt = conn.prepareStatement(query)) {
             stmt.setString(1, plat);
             ResultSet rs = stmt.executeQuery();
@@ -280,7 +280,7 @@ public class dbhandler {
         float threshold = 0.7f; // Threshold cocok, bisa disesuaikan
 
         String query = "SELECT id, face FROM identity";
-        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/parkingsys", "root", "255.255.255.0Fa");
+        try (Connection conn = DriverManager.getConnection(url, user, password);
              PreparedStatement stmt = conn.prepareStatement(query)) {
 
             ResultSet rs = stmt.executeQuery();
