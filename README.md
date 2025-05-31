@@ -14,25 +14,41 @@ database sesuaiin sama dbml yang ada di repo ini (pastiin PK sama FK nya bener)
 MainWindow (not updated yet!)
 ![image](https://github.com/user-attachments/assets/74e30889-39b1-454c-9a4e-1ab1916100b6)
 
+
+
 EntryGate() (not updated yet!)
 ![image](https://github.com/user-attachments/assets/2507486a-17be-40d0-89c6-3b5a1068a7e1)
+
+
 
 ExitGate() (not updated yet!)
 ![image](https://github.com/user-attachments/assets/38f54661-3759-44f8-a0fd-fde63b4d6e25)
 
+
+
 RegistGate()
 ![image](https://github.com/user-attachments/assets/56f6a810-3666-4c63-8a80-cd71b94c7d61)
 
+
+
 AddVehicle()
 ![image](https://github.com/user-attachments/assets/da0319f8-8c37-4b74-9b1f-e539a8037c75)
+
+
 
 Root()
 ![image](https://github.com/user-attachments/assets/7e5e9b2d-5e78-4469-a135-c136872e6157)
 ![image](https://github.com/user-attachments/assets/a911396f-0f45-4c33-8639-4f5c06176c9f)
 ![image](https://github.com/user-attachments/assets/5324c858-eadc-4aeb-acf6-ec18bd06b0b7)
 
+
+
+
 Camera
 ![image](https://github.com/user-attachments/assets/f55682f2-6012-4c2d-b9dd-398bb31d317b)
+
+
+
 
 Success
 ![image](https://github.com/user-attachments/assets/bb7da2f4-4c54-49e0-abae-deb260bbb356)
