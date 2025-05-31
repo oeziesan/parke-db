@@ -45,7 +45,8 @@ Root()
 
 
 Camera
-![image](https://github.com/user-attachments/assets/f55682f2-6012-4c2d-b9dd-398bb31d317b)
+![image](https://github.com/user-attachments/assets/7d8daa78-858e-44c2-8ce2-793b36310a6f)
+
 
 
 
