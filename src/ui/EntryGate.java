@@ -120,7 +120,9 @@ public class EntryGate extends JFrame {
                 return;
             }
             //4.SUCCESS
-            LocalDateTime entryTime = LocalDateTime.now();
+            ZoneId jakartaZone = ZoneId.of("Asia/Jakarta"); //SET TO JAKARTA (GMT+7)
+            ZonedDateTime jakartaDateTime = ZonedDateTime.now(jakartaZone);
+            LocalDateTime entryTime = jakartaDateTime.toLocalDateTime();
             Timestamp entryTimestamp = Timestamp.valueOf(entryTime);
             int id = db.findVehicleIDbyPLAT(platField.getText());
             db.entry_log(entryTimestamp, id);
