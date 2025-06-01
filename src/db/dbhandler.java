@@ -326,11 +326,11 @@ public class dbhandler {
         }
     }
 
-    public String log_exitWindow (int id) {
-        String query = "SELECT jam_masuk, jam_keluar FROM parking_log WHERE vehicle_id = ?";
+    public String log_exitWindow (int v_id) {
+        String query = "SELECT jam_masuk, jam_keluar FROM parking_log WHERE vehicle_id = ? ORDER BY id DESC LIMIT 1";
         try (Connection conn = DriverManager.getConnection(url, user, password);
              PreparedStatement stmt = conn.prepareStatement(query)) {
-            stmt.setInt(1, id);
+            stmt.setInt(1, v_id);
             ResultSet rs = stmt.executeQuery();
 
             if (rs.next()) {
