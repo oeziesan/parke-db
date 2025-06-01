@@ -111,7 +111,9 @@ public class ExitGate extends JFrame {
                 return;
             }
             //4.SUCCESS
-            LocalDateTime exitTime = LocalDateTime.now();
+            ZoneId jakartaZone = ZoneId.of("Asia/Jakarta");
+            ZonedDateTime jakartaDateTime = ZonedDateTime.now(jakartaZone);
+            LocalDateTime exitTime = jakartaDateTime.toLocalDateTime();
             Timestamp exitTimestamp = Timestamp.valueOf(exitTime);
             int id = db.findVehicleIDbyPLAT(platField.getText());
             db.exit_log(exitTimestamp, id);
