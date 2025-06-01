@@ -1,6 +1,6 @@
 Table identity {
   id integer [primary key]
-  face blob
+  face mediumblob
   nama varchar
   nim varchar
 }
