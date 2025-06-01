@@ -1,11 +1,11 @@
 `**AUTOMATED PARKING SYSTEM**`
 
-Library to used :
+Libraries used in this project :
 1. OpenCV
 2. [Tensorflow](https://www.tensorflow.org/install/lang_java_legacy)
 3. JDBC
 
-Pre-trained model to used for this project is [facenet](https://github.com/davidsandberg/facenet) by davidsanberg.
+Pre-trained model used for the tensorflow is [facenet](https://github.com/davidsandberg/facenet) by davidsanberg.
 
 This project is designed to implemented in a fixed attendace parking system. The automated system work by matching two parameter (face, and license plat). This project still under-development and still need a lot of improvement.
 
