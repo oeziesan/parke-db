@@ -7,7 +7,7 @@ Libraries used in this project :
 
 Pre-trained model used for the tensorflow is [facenet](https://github.com/davidsandberg/facenet) by davidsanberg.
 
-This project is designed to implemented in a fixed attendace parking system. The automated system work by matching two parameter (face, and license plat). This project still under-development and still need a lot of improvement.
+This project is designed to implemented in a fixed parking user system (not frequently change). The automated system work by matching two parameter (face, and license plat). This project still under-development and still need a lot of improvement.
 
 `**UI OVERVIEW**`
 **MainWindow (not updated yet!)**
