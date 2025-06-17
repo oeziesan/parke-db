@@ -10,41 +10,46 @@ Pre-trained model used for the tensorflow is [facenet](https://github.com/davids
 This project is designed to implemented in a fixed parking user system (not frequently change). The automated system work by matching two parameter (face, and license plat). This project still under-development and still need a lot of improvement.
 
 `**UI OVERVIEW**`
-**MainWindow (not updated yet!)**
+**Main Window**
 
-![image](https://github.com/user-attachments/assets/74e30889-39b1-454c-9a4e-1ab1916100b6)
-
-
-
-**EntryGate() (not updated yet!)**
-
-![image](https://github.com/user-attachments/assets/2507486a-17be-40d0-89c6-3b5a1068a7e1)
+![image](https://github.com/user-attachments/assets/2ab7fbd8-3e54-4a16-a7d1-ac77c60efda8)
 
 
 
-**ExitGate() (not updated yet!)**
+**Entry Gate**
 
-![image](https://github.com/user-attachments/assets/38f54661-3759-44f8-a0fd-fde63b4d6e25)
+![image](https://github.com/user-attachments/assets/99fafd22-531e-47b1-aa08-4cf00d2e5591)
 
 
 
-**RegistGate()**
+**Exit Gate**
+
+![image](https://github.com/user-attachments/assets/82f88c5c-72e7-4799-a34e-bae6a05f02b7)
+
+
+
+
+**Regist Gate**
 
 ![image](https://github.com/user-attachments/assets/56f6a810-3666-4c63-8a80-cd71b94c7d61)
 
 
 
-**AddVehicle()**
+**Add Vehicle**
 
 ![image](https://github.com/user-attachments/assets/da0319f8-8c37-4b74-9b1f-e539a8037c75)
 
 
 
-**Root()**
+**Root**
 
-![image](https://github.com/user-attachments/assets/7e5e9b2d-5e78-4469-a135-c136872e6157)
-![image](https://github.com/user-attachments/assets/a911396f-0f45-4c33-8639-4f5c06176c9f)
-![image](https://github.com/user-attachments/assets/5324c858-eadc-4aeb-acf6-ec18bd06b0b7)
+![image](https://github.com/user-attachments/assets/b045f60f-7407-41a8-8a5a-8fa7890ddbcd)
+![image](https://github.com/user-attachments/assets/472d3f82-d67c-4609-8225-4757f27d4a76)
+![image](https://github.com/user-attachments/assets/1a622ca6-fe12-45fb-b8ca-b25d380f431c)
+![image](https://github.com/user-attachments/assets/35b97c12-86c3-416b-8cd9-48d65e92d3dd)
+![image](https://github.com/user-attachments/assets/2483ee31-7d97-42fd-ab34-ec522cc6366f)
+
+
 
 
 
