@@ -34,14 +34,22 @@ public class Root extends JFrame {
                 "/assets/btnBackClicked.png"
         );
 
+        ImageButton btnLog = new ImageButton(
+                "/assets/btnLogReg.png",
+                "/assets/btnLogHover.png",
+                "/assets/btnLogClicked.png"
+        );
+
         label.setBounds(290, 50, 150, 20);
-        btnUpdate.setBounds(210, 130, 136, 56);
-        btnDelete.setBounds(360, 130, 136, 56);
+        btnUpdate.setBounds(210, 180, 136, 56);
+        btnDelete.setBounds(360, 180, 136, 56);
+        btnLog.setBounds(285, 120, 136, 56);
         btnBack.setBounds(-10, 20, 125, 60);
 
         backgroundPanel.add(label);
         backgroundPanel.add(btnUpdate);
         backgroundPanel.add(btnDelete);
+        backgroundPanel.add(btnLog);
         backgroundPanel.add(btnBack);
 
         //IF-UPDATE-(DATA)
@@ -57,9 +65,9 @@ public class Root extends JFrame {
                 "/assets/btnVHover.png",
                 "/assets/btnVClicked.png"
         );
-        question.setBounds(260, 200, 150, 40);
-        btnID.setBounds(210, 270, 125, 45);
-        btnUpdateVehicle.setBounds(360, 270, 125, 45);
+        question.setBounds(260, 250, 150, 40);
+        btnID.setBounds(210, 320, 125, 45);
+        btnUpdateVehicle.setBounds(360, 320, 125, 45);
 
         //IF-HAPUS-(DATA)
         JLabel question2 = new JLabel("Akan Hapus Apa?", SwingConstants.CENTER);
@@ -75,9 +83,9 @@ public class Root extends JFrame {
                 "/assets/btnVClicked.png"
         );
 
-        question2.setBounds(260, 200, 150, 40);
-        btnID2.setBounds(210, 270, 125, 45);
-        btnUpdateVehicle2.setBounds(360, 270, 125, 45);
+        question2.setBounds(260, 250, 150, 40);
+        btnID2.setBounds(210, 320, 125, 45);
+        btnUpdateVehicle2.setBounds(360, 320, 125, 45);
 
         //IF-UPDATE-(ACTION)
         btnUpdate.addActionListener(e -> {
@@ -120,6 +128,10 @@ public class Root extends JFrame {
                new RootDeleteID().setVisible(true);
                dispose();
            });
+       });
+
+       btnLog.addActionListener(e -> {
+           new Log().setVisible(true);
        });
 
        btnBack.addActionListener(e -> {
