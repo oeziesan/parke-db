@@ -9,8 +9,7 @@ Pre-trained model used for the tensorflow is [facenet](https://github.com/davids
 
 This project is designed to implemented in a fixed parking user system (not frequently change). The automated system work by matching two parameter (face, and license plat). This project still under-development and still need a lot of improvement.
 
-**Testing** :
-[![Youtube Video]()](https://youtu.be/hpvx9fJL794?si=IGYFyelOaIFQViHA)
+[![**Testing**](https://img.youtube.com/vi/hpvx9fJL794/0.jpg)](https://www.youtube.com/watch?v=hpvx9fJL794)
 
 `**UI OVERVIEW**`
 
