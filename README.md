@@ -7,7 +7,7 @@ Libraries used in this project :
 
 Pre-trained model used for the tensorflow is [facenet](https://github.com/davidsandberg/facenet) by davidsanberg.
 
-This project is designed to implemented in a fixed parking user system (not frequently change). The automated system work by matching two parameter (face, and license plat). This project still under-development and still need a lot of improvement.
+This project is designed for implementation in a fixed-user parking system, where users are consistent and not frequently changing. The automated system operates by matching two key parameters: facial recognition and license plate verification. Currently, the project is under development and requires further improvements and optimization to enhance accuracy and reliability.
 
 **Testing Video :**
 
